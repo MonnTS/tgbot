@@ -1,2 +1,2 @@
-export * from './banned_user.entity'
-export * from './banned_user_info.entity'
+export * from './user_banned.entity'
+export * from './user_bot.entity'
