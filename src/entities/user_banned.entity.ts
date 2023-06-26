@@ -12,10 +12,10 @@ export class UserBotBannedEntity {
   @PrimaryGeneratedColumn({ name: 'ban_id' })
   banId: number
 
-  @Column()
+  @Column({ nullable: true, length: 255 })
   reason: string
 
-  @Column({ name: 'ban_date' })
+  @Column({ name: 'ban_date', type: 'date' })
   banDate: Date
 
   @OneToOne(() => UserBotEntity)
