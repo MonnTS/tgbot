@@ -1,4 +1,4 @@
-import { Commands } from '../enums'
+import { Commands } from '../constants'
 import {
   handleContentCommand,
   handleIdeaCommand,
